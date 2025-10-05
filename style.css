@@ -8,21 +8,29 @@ body {
     margin: 0;
 }
 
+header {
+    background-color: rgba(108, 106, 110, 0.671);
+    height: 60px;
+    width: auto;
+    padding: 0;
+    border-radius: 20px;
+}
+
 .card {
-    background: #fff;
+    background: #aceb82;
     width: 320px;
     padding: 20px;
-
     border-radius: 12px;
     box-shadow: 0 16px 16px rgba(0, 0, 0, 0.336);
     text-align: center;
+    border: 6px solid rgb(228, 192, 34);
 
 }
 
-img {
+.profile_img {
     width: 120px;
     height: 120px;
-    border: 6px solid rgb(73, 14, 129);
+    border: 6px solid rgb(70, 226, 65);
     border-radius: 50%;
     margin-bottom: 15px;
     box-shadow: 0px 1px 16px rgb(17, 7, 20);
@@ -47,4 +55,14 @@ img {
     margin: 5px;
     border-radius: 6px;
     font-size: 14px;
+}
+
+
+.Socmed img {
+    height: 40px;
+    width: 40px;
+}
+
+.Socmed label {
+    font-weight: bold;
 }
